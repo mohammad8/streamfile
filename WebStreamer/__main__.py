@@ -9,7 +9,7 @@ import logging
 import importlib
 from pathlib import Path
 from pyrogram import idle
-from .bot import Stream
+from .bot import stream
 from .vars import Var
 from aiohttp import web
 from .server import web_server
